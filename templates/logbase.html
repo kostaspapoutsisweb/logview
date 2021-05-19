@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Log Entry</title>
+    <title>Αρχείο Log</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
 
@@ -45,7 +45,7 @@
                  alt="avatar">
         </div>
         <div class="info__metadata">
-            <div class="info__guild-name"><span style='color:white'>Thread Logs</span> {% if log_entry.open %}
+            <div class="info__guild-name"><span style='color:white'>Νήματα Καταγραφών</span> {% if log_entry.open %}
                 (Open){% else %}(Closed){% endif %}</div>
             <div title="{{ log_entry.recipient.id }}" class="info__channel-topic tooltip"><span style="color:white">Recipient:
                 <b>{{ log_entry.recipient.name | e }}</b></span>#{{ log_entry.recipient.discriminator }}
