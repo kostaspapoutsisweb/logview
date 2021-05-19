@@ -135,8 +135,8 @@
                     <span class="chatlog__author-name"
                           title="{{ log_entry.closer | string | e }}">{{ log_entry.closer.name }}</span>
                     {% if log_entry.closer.mod %}
-                        <span>closed the thread</span>
-                        <span class="system-tag">System</span>
+                        <span>έκλεισε αυτό το νήμα</span>
+                        <span class="system-tag">Σύστημα</span>
                     {% endif %}
                     <span class="chatlog__timestamp">{{ log_entry.human_closed_at }}</span>
                     {% if log_entry.close_message %}
