@@ -46,9 +46,9 @@
                  alt="avatar">
         </div>
         <div class="info__metadata">
-            <div class="info__guild-name"><span style='color:red'>Νήματα Καταγραφών</span> {% if log_entry.open %}
+            <div class="info__guild-name"><span style='color:white'>Νήματα Καταγραφών</span> {% if log_entry.open %}
                 (Ανοιχτό){% else %}(Κλειστό){% endif %}</div>
-            <div title="{{ log_entry.recipient.id }}" class="info__channel-topic tooltip"><span style="color:white">STAFF εξυπηρέτησης μέλους:
+            <div title="{{ log_entry.recipient.id }}" class="info__channel-topic tooltip"><span style="color:red">STAFF εξυπηρέτησης μέλους:
                 <b>{{ log_entry.recipient.name | e }}</b></span>#{{ log_entry.recipient.discriminator }}
                 <span class='tooltiptext pre pre--inline'>{{ log_entry.recipient.id }}</span>
             </div>
